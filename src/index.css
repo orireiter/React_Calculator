@@ -1,0 +1,112 @@
+/*--------------- whole calc ---------------*/
+/*------------------------------------------*/
+body {
+  background-color:#3ab37cff;
+  margin: 0;
+  color:#212738ff;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.app {
+  background-color:#57c4e5ff;
+  border-color: #2127386b;
+  border-style: solid;
+  margin-top: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
+  border-radius: 0.3em;
+}
+/*------------------------------------------*/
+/*----------------- screen -----------------*/
+.app-screen {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-top: 2em;
+  padding-bottom: 1.5em;
+}
+.screen {
+  background-color:#edf2efff;
+  border-radius: 0.333em;
+  padding-left: 0.5em;
+  padding-top: 0.1em;
+  padding-bottom: 0.001em;
+  border-color: #21273894;
+  border-style: solid;
+}
+/*------------------------------------------*/
+/*---------------- keyboard ----------------*/
+/* button {
+  margin-right: 1.5%;
+  margin-left: 1.5%;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  margin-top: 5%
+} */
+button {
+  font-size: 20px;
+  border-radius: 0.3em;
+  border-color: #21273894;
+}
+.keyboard-nums {
+  float: left;
+
+  width: 75%;
+  max-width: 75%;
+  display: flex;
+  flex-flow: wrap;
+}
+.keyboard-nums-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 6%;
+}
+.keyboard-operators {
+  float: right;
+
+  width: 25%;
+  max-width: 25%;
+
+  display: flex;
+  flex-direction: column;
+}
+.keyboard-operators-row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 6%;
+}
+#zero :first-child {
+  width: 62.5%;
+}
+
+.bottom {
+  clear: both;
+  display: flex;
+  justify-content: space-evenly;
+
+  padding-top: 5%;
+  padding-bottom: 2.5%;
+}
+.bottom button {
+  width: 33%;
+}
+
+.keyboard-nums button{
+  width: 30%;
+}
+
+.keyboard-operators button{
+  width: 80%;
+}
+/*------------------------------------------*/
+/*------------------------------------------*/
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
